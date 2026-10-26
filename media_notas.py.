@@ -1,0 +1,12 @@
+
+notas = [8, 7, 9, 10]
+
+media = sum(notas) / len(notas)
+
+print("Notas:", notas)
+print("Média:", media)
+
+if media >= 7:
+    print("Aprovado!")
+else:
+    print("Em recuperação.")
